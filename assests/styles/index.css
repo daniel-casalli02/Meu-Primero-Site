@@ -22,26 +22,54 @@ header {
     text-align: center;
 }
 main{
-    background-color: rgb(235, 234, 234);
+    background-color: rgb(117, 114, 114);
     flex: 1;
     padding: 48px 38px;
     width: 100%;
 }
 
-about-section{
+about-section, Hobbies{
     display: block;
     background-color: aliceblue;
     width: 80%;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 30px;
 }
 
 #titulo-sobre-mim{
     font-size: 40px;
     border-bottom: 2px solid rgb(123, 131, 179);
+    margin-bottom: 15px;
+}
+#titulo-Hobbies{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(123, 131, 179);
+    margin-bottom: 20px;
 }
 
 .texto-sobre-mim{
     font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+li{
+    background-color: rgb(159, 169, 224);
+    padding: 12px;
+    border-left: 4px rgb(123, 131, 179);
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover{
+    background-color: lightseagreen;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
 }
