@@ -1,16 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
 /* reset do css*/
 *{
     margin: 0;
-    padding: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1, p{
-    text-align: center;
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Lacquer";
 }
+
 
 header {
-    background-color: rgba(129, 76, 7, 0.295);
+    background-color: rgb(123, 131, 179);
     color: rgb(7, 3, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 40px;
+    text-align: center;
+}
+main{
+    background-color: rgb(235, 234, 234);
+    flex: 1;
+    padding: 48px 38px;
+    width: 100%;
+}
+
+about-section{
+    display: block;
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#titulo-sobre-mim{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(123, 131, 179);
+}
+
+.texto-sobre-mim{
+    font-size: 30px;
 }
