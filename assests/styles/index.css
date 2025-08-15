@@ -112,5 +112,16 @@ contact a:hover{
     background-color: blue;
     color: whitesmoke;
     transform: translateY(-2px);
+}
 
+footer{
+    background-color:  rgb(123, 131, 179);
+    color: whitesmoke;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p{
+    font-size: 2rem;
 }
