@@ -125,3 +125,62 @@ footer{
 footer p{
     font-size: 2rem;
 }
+
+/* --- Media Query para telas menores que 768px (tablets e celulares) --- */
+@media (max-width: 768px) {
+    /* Ajusta a largura e o padding das seções principais */
+    about-section,
+    Hobbies,
+    contact {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* Reduz o tamanho das fontes para melhor visualização em dispositivos móveis */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #titulo-sobre-mim,
+    #titulo-Hobbies {
+        font-size: 2.5rem;
+    }
+
+    .texto-sobre-mim {
+        font-size: 1.5rem;
+    }
+
+    contact h2 {
+        font-size: 1.5rem;
+    }
+
+    contact p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    /* Muda o layout da lista de hobbies para exibir os itens em coluna */
+    ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    li {
+        min-width: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Ajusta o link de contato para ocupar a largura total e ser mais fácil de clicar */
+    contact a {
+        display: block;
+        margin: 1rem auto;
+    }
+}
